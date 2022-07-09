@@ -109,6 +109,9 @@ namespace MoyuBook {
         }
 
         private Rect lastWindowPos = new Rect(0, 0, 800, 130);
+        /// <summary>
+        /// 上一次显示的位置
+        /// </summary>
         public Rect LastWindowPos {
             get { return lastWindowPos; }
             set { lastWindowPos = value; NotifyPropertyChanged(); }
